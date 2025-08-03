@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <section
@@ -11,7 +9,7 @@ export default function Hero() {
       <div className="max-w-3xl w-full space-y-6 backdrop-blur-md bg-white/60 dark:bg-black/40 p-6 rounded-xl shadow-md">
         {/* Name + Role */}
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-          Hi, I'm  <span className="text-blue-600 dark:text-blue-400">Muhmammad Sohaib</span>
+          Hi, I am  <span className="text-blue-600 dark:text-blue-400">Muhmammad Sohaib</span>
         </h1>
         <h2 className="text-lg sm:text-xl text-gray-700 dark:text-gray-300">
           Full Stack Web Developer · Problem Solver · Tech Explorer

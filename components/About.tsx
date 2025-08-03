@@ -10,12 +10,12 @@ export default function About() {
         </h2>
 
         <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-          I'm a full-stack web developer with a focus on performance, usability, and clean
-          architecture. Over the past few years, I’ve built scalable products using technologies like
+          I am a full-stack web developer with a focus on performance, usability, and clean
+          architecture. Over the past few years, I have built scalable products using technologies like
           <strong className="font-semibold"> Next.js, React, Node.js, TypeScript, PostgreSQL, MongoDB, and Tailwind CSS</strong>.
           <br /><br />
           I care deeply about writing maintainable code, building meaningful features, and
-          collaborating across teams. Whether it's building an API, optimizing frontend UX, or deploying to the cloud — I’m focused on outcomes, not just code.
+          collaborating across teams. Whether it's building an API, optimizing frontend UX, or deploying to the cloud — I am focused on outcomes, not just code.
         </p>
       </div>
     </section>
