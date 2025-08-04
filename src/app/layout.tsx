@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import Script from "next/script";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
@@ -38,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Muhammad Sohaib Portfolio",
     images: [
       {
-        url: "https://sohaibkundi.dev/og-image.png", // Replace with your OG image
+        url: "https://avatars.githubusercontent.com/u/181643121?v=4", // Replace with your OG image
         width: 1200,
         height: 630,
         alt: "Muhammad Sohaib Portfolio Preview",
@@ -50,8 +49,14 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
-  themeColor: "#ffffff",
   manifest: "/site.webmanifest",
+};
+
+export const viewport = {
+ themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#0d0d0d" },
+  ],
 };
 
 export default function RootLayout({

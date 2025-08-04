@@ -15,7 +15,7 @@ export default function About() {
           <strong className="font-semibold"> Next.js, React, Node.js, TypeScript, PostgreSQL, MongoDB, and Tailwind CSS</strong>.
           <br /><br />
           I care deeply about writing maintainable code, building meaningful features, and
-          collaborating across teams. Whether it's building an API, optimizing frontend UX, or deploying to the cloud — I am focused on outcomes, not just code.
+          collaborating across teams. Whether it is building an API, optimizing frontend UX, or deploying to the cloud — I am focused on outcomes, not just code.
         </p>
       </div>
     </section>
