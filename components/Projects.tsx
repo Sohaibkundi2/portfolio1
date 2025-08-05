@@ -9,14 +9,14 @@ const projects = [
   {
     title: "NextAuthApp",
     description: "An online learning platform with instructor dashboards, secure video hosting, and course enrollment.",
-    tech: ["Next","TypeScript", "Node", "MongoDB", "SMTP"],
+    tech: ["Next.js","TypeScript", "Node", "MongoDB", "SMTP"],
     github: "https://github.com/Sohaibkundi2/Next-Auth-App",
-    live: "next-auth-app-nine-vert.vercel.app",
+    live: "https://next-auth-app-nine-vert.vercel.app",
   },
   {
     title: "URL Shortener",
     description: "A minimal and fast link shortener with analytics, user dashboard, and JWT-based auth.",
-    tech: ["React.js", "MongoDB", "Javascript", "Express", "Vercel"],
+    tech: ["MERN", "JWT", "Render", "Vercel"],
     github: "https://github.com/Sohaibkundi2/url-shortner",
     live: "https://shrtit.tech",
   },

@@ -64,6 +64,17 @@ export default function Contact() {
               linkedin.com/in/sohaibkundi2
             </a>
           </p>
+
+          <p>
+  Connect on GitHub:{" "}
+  <a
+    href="https://github.com/sohaibkundi2"
+    target="_blank"
+    className="text-blue-600 dark:text-blue-400 hover:underline"
+  >
+    github.com/sohaibkundi2
+  </a>
+</p>
         </div>
       </div>
     </section>
