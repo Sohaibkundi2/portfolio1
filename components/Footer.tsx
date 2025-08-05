@@ -11,19 +11,19 @@ export default function Footer() {
         <div className="text-sm text-gray-600 dark:text-gray-400 space-x-4">
           <a
             href="#about"
-            className="hover:text-black dark:hover:text-white transition"
+            className="hover:text-blue-600 dark:hover:text-blue-400 transition"
           >
             About
           </a>
           <a
             href="#projects"
-            className="hover:text-black dark:hover:text-white transition"
+            className="hover:text-blue-600 dark:hover:text-blue-400 transition"
           >
             Projects
           </a>
           <a
             href="#contact"
-            className="hover:text-black dark:hover:text-white transition"
+            className="hover:text-blue-600 dark:hover:text-blue-400 transition"
           >
             Contact
           </a>

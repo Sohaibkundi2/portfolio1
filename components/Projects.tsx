@@ -33,17 +33,17 @@ export default function Projects() {
           Featured Projects
         </h2>
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-3 ">
           {projects.map((project) => (
             <div
               key={project.title}
-              className="backdrop-blur-md bg-white/60 dark:bg-black/40 p-6 rounded-xl shadow-md flex flex-col justify-between"
+              className="backdrop-blur-md bg-white dark:bg-black/40 p-6 rounded-xl shadow border border-gray-200 dark:border-gray-700 transition-all duration-200 hover:bg-gray-50 dark:hover:bg-white/5 flex flex-col justify-between"
             >
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   {project.title}
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 mb-4">
+                <p className="text-gray-500 dark:text-gray-500 mb-4">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">

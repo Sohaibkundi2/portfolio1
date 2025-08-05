@@ -21,7 +21,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur bg-white/70 dark:bg-black/50 border-b border-gray-200 dark:border-gray-700">
+    <header className="sticky top-0 z-50 backdrop-blur bg-white dark:bg-black/10 border-b border-gray-200 dark:border-gray-800">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-xl font-semibold tracking-tight">
