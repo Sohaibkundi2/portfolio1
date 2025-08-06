@@ -6,7 +6,7 @@ export default function Hero() {
       id="hero"
       className="min-h-[90vh] flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8"
     >
-      <div className="max-w-3xl w-full space-y-6 backdrop-blur-md bg-white/60 dark:bg-black/40 p-6 rounded-xl shadow-md border border-[var(--muted)]/30">
+      <div className="max-w-3xl w-full space-y-6 backdrop-blur-md p-6 rounded-xl shadow-md border border-[var(--muted)]/30">
         {/* Name + Role */}
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--foreground)]">
           Hi, I am <span className="text-[var(--accent)]">Muhammad Sohaib</span>

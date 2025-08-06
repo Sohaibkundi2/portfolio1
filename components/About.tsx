@@ -4,13 +4,13 @@ export default function About() {
       id="about"
       className="min-h-[60vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16"
     >
-      <div className="max-w-4xl w-full backdrop-blur-sm bg-white/90 dark:bg-zinc-900/60 border border-gray-200 dark:border-zinc-700 p-8 rounded-xl shadow-md">
+      <div className="max-w-4xl w-full backdrop-blur-sm  border border-[var(--muted)]/30 p-8 rounded-xl shadow-md">
         <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-6">
           About Me
         </h2>
 
-        <div className="space-y-4 text-base sm:text-lg text-gray-800 dark:text-gray-300 leading-relaxed">
-          <p className="text-gray-800 dark:text-gray-300 ">
+        <div className="space-y-4 text-base sm:text-lg leading-relaxed">
+          <p>
             I am a full-stack web developer focused on performance, usability, and clean architecture.
           </p>
           <p>

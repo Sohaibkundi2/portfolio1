@@ -1,7 +1,7 @@
 const skills = {
   frontend: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"],
   backend: ["Node.js", "Express", "MongoDB", "PostgreSQL", "Prisma", "REST APIs"],
-  tools: ["Git", "GitHub", "Vercel", "Docker", "Figma", "Postman"],
+  tools: ["Git", "GitHub", "Vercel", "Render" , "Docker", "Figma", "Postman"],
 };
 
 export default function Skills() {
@@ -19,12 +19,12 @@ export default function Skills() {
           {Object.entries(skills).map(([category, items]) => (
             <div
               key={category}
-              className="backdrop-blur-md bg-white/60 dark:bg-black/40 p-6 rounded-xl shadow-md"
+              className="backdrop-blur-md p-6 border border-[var(--muted)]/30 rounded-xl shadow-md"
             >
-              <h3 className="text-xl font-medium capitalize mb-4 text-gray-800 dark:text-gray-100">
+              <h3 className="text-xl font-medium capitalize mb-4 ">
                 {category}
               </h3>
-              <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+              <ul className="space-y-2">
                 {items.map((skill) => (
                   <li key={skill}>• {skill}</li>
                 ))}

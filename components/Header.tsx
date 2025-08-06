@@ -21,7 +21,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur bg-white dark:bg-black/10 border-b border-gray-200 dark:border-gray-800">
+    <header className="sticky top-0 z-50 backdrop-blur border-b ">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-xl font-semibold tracking-tight">
@@ -47,7 +47,7 @@ export default function Header() {
           onClick={() =>
             setTheme(theme === "dark" ? "light" : "dark")
           }
-          className="ml-4 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800 transition"
+          className="ml-4 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-300 transition"
         >
           {mounted && (
             theme === "dark" ? <Sun size={18} /> : <Moon size={18} />

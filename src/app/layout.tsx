@@ -59,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-   <html lang="en" className="bg-white text-black dark:bg-[#0d0d0d] dark:text-white transition-colors duration-200" suppressHydrationWarning>
+   <html lang="en"  suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />

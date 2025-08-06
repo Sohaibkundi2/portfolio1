@@ -1,20 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f5eff3;       /* Tailwind's slate-50 */
-  --foreground: #1e293b;       /* slate-800 */
-  --muted: #173054;            /* slate-500 */
-  --accent: #0f172a;           /* slate-900 for headings or borders */
+  --background: #ffffff;
+  --foreground: #1e293b;
+  --muted: #64748b;
+  --accent: #0ea5e9;
 }
 
 .dark {
-  --background: #0f172a;       /* slate-900 */
-  --foreground: #f1f5f9;       /* slate-100 */
-  --muted: #a3bcde;            /* slate-400 */
-  --accent: #38bdf8;           /* sky-400 for links or highlights */
+  --background: #1d1c0b;
+  --foreground: #f1f5f9;
+  --muted: #a3bcde;
+  --accent: #38bdf8;
 }
-
-
 
 body {
   @apply bg-[var(--background)] text-[var(--foreground)] font-sans;
