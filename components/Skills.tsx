@@ -1,7 +1,7 @@
 const skills = {
-  frontend: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"],
-  backend: ["Node.js", "Express", "MongoDB", "PostgreSQL", "Prisma", "REST APIs"],
-  tools: ["Git", "GitHub", "Vercel", "Render" , "Docker", "Figma", "Postman"],
+  frontend: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "React.js", "Next.js (App Router)", "Tailwind CSS"],
+  backend: ["Node.js", "Express.js", "MongoDB", "SQL (PostgreSQL) ", "Prisma", "RESTful APIs"],
+  tools: ["Git / GitHub","Cloudinary", "Vercel / Render" , "Docker", "Figma", "Postman"],
 };
 
 export default function Skills() {

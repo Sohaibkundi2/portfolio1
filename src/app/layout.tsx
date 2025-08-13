@@ -11,13 +11,14 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   metadataBase: new URL("https://sohaibkhan.me"),
   title: {
-    default: "Muhammad Sohaib | Full Stack Developer",
-    template: "%s | Muhammad Sohaib",
+    default: "Muhammad Sohaib (sohaibkundi2) | Full Stack Developer",
+    template: "%s | Muhammad Sohaib (sohaibkundi2)",
   },
   description:
-    "Portfolio of Muhammad Sohaib, a full-stack web developer crafting scalable, performant, and user-centric web applications.",
+    "Portfolio of Muhammad Sohaib (sohaibkundi2), a full-stack web developer crafting scalable, performant, and user-centric web applications.",
   keywords: [
     "Muhammad Sohaib",
+    "Sohaibkundi2",
     "Full Stack Developer",
     "Web Developer Portfolio",
     "JavaScript",
@@ -45,11 +46,11 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "/sohaib.png",
-    shortcut: "/sohaib.png",
-    apple: "/sohaib.png",
+    icon: "./sohaib.png",
+    shortcut: "./sohaib.png",
+    apple: "./sohaib.png",
   },
-  manifest: "/site.webmanifest",
+  manifest: "./site.webmanifest",
 };
 
 

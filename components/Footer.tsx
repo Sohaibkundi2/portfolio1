@@ -5,7 +5,8 @@ export default function Footer() {
     <footer className="border-t px-4 sm:px-6 lg:px-8 py-6 mt-20  backdrop-blur-md">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
         <p className="text-sm ">
-          &copy; {currentYear} Sohaib Kundi. All rights reserved.
+          &copy; {currentYear}
+           {" "} Sohaib. All rights reserved.
         </p>
 
         <div className="text-sm space-x-4">
