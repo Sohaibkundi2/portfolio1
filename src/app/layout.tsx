@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Muhammad Sohaib Portfolio",
     images: [
       {
-        url: "https://avatars.githubusercontent.com/u/181643121?v=4", 
+        url: "https://avatars.githubusercontent.com/u/181643121?v=4",
         width: 1200,
         height: 630,
         alt: "Muhammad Sohaib Portfolio Preview",
@@ -46,11 +46,12 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "./sohaib.png",
-    shortcut: "./sohaib.png",
-    apple: "./sohaib.png",
+    icon: "/sohaib.png", 
+    apple: "/sohaib.png", 
+    shortcut: "/sohaib.png",
   },
-  manifest: "./site.webmanifest",
+  manifest: "/site.webmanifest",
+
 };
 
 
@@ -60,7 +61,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-   <html lang="en"  suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />

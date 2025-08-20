@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { Moon, Sun } from "lucide-react";
+import ThemeToggleButton from "@/components/ui/theme-toggle-button";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -42,17 +43,10 @@ export default function Header() {
         </nav>
 
         {/* Theme Toggle */}
-        <button
-          aria-label="Toggle Theme"
-          onClick={() =>
-            setTheme(theme === "dark" ? "light" : "dark")
-          }
-          className="ml-4 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-300 transition"
-        >
-          {mounted && (
-            theme === "dark" ? <Sun size={18} /> : <Moon size={18} />
-          )}
-        </button>
+        <ThemeToggleButton
+          showLabel variant="circle-blur" start="top-right"
+        />
+
       </div>
     </header>
   );
