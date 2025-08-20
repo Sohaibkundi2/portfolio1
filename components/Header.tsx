@@ -2,8 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useTheme } from "next-themes";
-import { Moon, Sun } from "lucide-react";
 import ThemeToggleButton from "@/components/ui/theme-toggle-button";
 
 const navLinks = [
@@ -14,11 +12,8 @@ const navLinks = [
 ];
 
 export default function Header() {
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
   }, []);
 
   return (
