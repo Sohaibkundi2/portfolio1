@@ -29,7 +29,7 @@ export default function Contact() {
 
 
   return (
-    <section id="contact" className="px-4 sm:px-6 lg:px-8 py-20">
+    <section id="contact" className="px-4 sm:px-6 lg:px-8">
       <div className="max-w-xl mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Get in Touch</h2>
         <p className="mb-10">

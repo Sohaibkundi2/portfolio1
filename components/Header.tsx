@@ -39,7 +39,7 @@ export default function Header() {
 
         {/* Theme Toggle */}
         <ThemeToggleButton
-          showLabel variant="circle-blur" start="top-right"
+           variant="circle-blur" start="top-right"
         />
 
       </div>

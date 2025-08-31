@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="px-4 sm:px-6 lg:px-8 py-16 bg-transparent min-h-[60vh] flex items-center justify-center"
+      className="px-4 sm:px-6 lg:px-8 bg-transparent min-h-[60vh] flex items-center justify-center"
     >
       <div className="max-w-6xl w-full">
         <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-10">

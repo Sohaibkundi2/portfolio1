@@ -26,7 +26,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="px-4 sm:px-6 lg:px-8 py-20 bg-transparent"
+      className="px-4 sm:px-6 lg:px-8  bg-transparent"
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-12">

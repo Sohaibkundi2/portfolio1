@@ -1,11 +1,25 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section
       id="about"
-      className="min-h-[60vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16"
+      className="min-h-[60vh] flex items-center justify-center px-4 sm:px-6 lg:px-20"
     >
-      <div className="max-w-4xl w-full backdrop-blur-sm  border border-[var(--muted)]/30 p-8 rounded-xl shadow-md">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-6">
+      <div className="max-w-4xl w-full backdrop-blur-sm border border-[var(--muted)]/30 p-8 rounded-xl shadow-md text-center">
+        {/* Profile Image */}
+        <div className="flex justify-center mb-6">
+          <Image
+            src="/sohaibkhan.png"
+            alt="Muhammad Sohaib"
+            width={150}
+            height={150}
+            className="rounded-full border-2 border-[var(--muted)]
+             transition duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(59,130,246,0.6)]"
+          />
+        </div>
+
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-6">
           About Me
         </h2>
 
