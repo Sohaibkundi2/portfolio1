@@ -23,7 +23,7 @@ h3 {
   color: var(--accent);
 }
 
-p {
+p,li {
   color: var(--muted);
 }
 

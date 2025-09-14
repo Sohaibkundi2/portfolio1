@@ -20,13 +20,20 @@ const projects = [
     github: "https://github.com/Sohaibkundi2/url-shortner",
     live: "https://shrtit.tech",
   },
+  {
+    title: "AI Tools",
+    description: "Developed a suite of AI-powered tools for various tasks, including text generation, image editing, Used Hugging Face and OpenAI APIs to integrate advanced AI functionalities. more tools coming soon...",
+    tech: ["Hugging Face", "OpenAI API", "Next.js", "Vercel"],
+    github: "https://github.com/Sohaibkundi2/SkAI",
+    live: "https://sk-ai-one.vercel.app",
+  },
 ];
 
 export default function Projects() {
   return (
     <section
       id="projects"
-      className="px-4 sm:px-6 lg:px-8  bg-transparent"
+      className=" sm:px-6 lg:px-8  bg-transparent"
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-12">

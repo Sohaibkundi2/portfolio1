@@ -2,7 +2,7 @@ export default function OpenSource() {
   return (
     <section
       id="opensource"
-      className=" px-4 sm:px-6 lg:px-20 flex items-center justify-center"
+      className=" px-4  lg:px-20 flex items-center justify-center"
     >
       <div className="max-w-4xl w-full backdrop-blur-sm border border-[var(--muted)]/30 p-8 rounded-xl shadow-md">
         <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-6">
