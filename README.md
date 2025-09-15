@@ -38,7 +38,7 @@ Currently learning and applying:
 - Tech: React, Node.js, MongoDB, Tailwind, Cloudinary  
 
 ### NextAuthApp  
-- Authentication system with signup, email verification, password reset, and protected routes  
+- Authentication system with signup, email verification (via SMTP), password reset, and protected routes  
 - Tech: Next.js, TypeScript, MongoDB, Email  
 
 ---
@@ -61,7 +61,7 @@ Currently learning and applying:
 
 ## Roadmap (2025)  
 1. Build and deploy Payment SaaS web app
-2. Build AI SaaS MVP (chatbot, translation, TTS)  
+2. Build AI SaaS MVP (chatbot,image creation and edition, translation, TTS)  
 3. Deep dive: SQL optimization & event-driven design  
 4. Dockerize apps and practice Kubernetes basics  
 

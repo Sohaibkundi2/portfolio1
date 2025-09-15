@@ -28,13 +28,13 @@ export default function About() {
             I am a full-stack web developer focused on performance, usability, and clean architecture.
           </p>
           <p>
-            Over the past few years, I’ve built scalable products using{" "}
+            Over the past few years, I&rsquo;ve built scalable products using{" "}
             <span className="font-semibold text-blue-600 dark:text-blue-400">
               Next.js, React, Node.js, TypeScript, PostgreSQL, MongoDB, and Tailwind CSS
             </span>.
           </p>
           <p>
-            I care deeply about writing maintainable code, building meaningful features, and collaborating across teams. Whether it’s building APIs, optimizing frontend UX, or deploying to the cloud — I stay focused on outcomes, not just code.
+            I care deeply about writing maintainable code, building meaningful features, and collaborating across teams. Whether it&rsquo;s building APIs, optimizing frontend UX, or deploying to the cloud &mdash; I stay focused on outcomes, not just code.
           </p>
         </div>
       </div>
