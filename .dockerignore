@@ -1,0 +1,29 @@
+# Node modules and caches
+node_modules
+npm-debug.log
+yarn-error.log
+.next/cache
+
+# Build output (will be rebuilt inside Docker)
+.next
+
+# Environment files (don’t bake secrets into image!)
+.env
+.env.* 
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git
+.gitignore
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+
+# IDE/editor configs
+.vscode
+.idea
+*.swp
