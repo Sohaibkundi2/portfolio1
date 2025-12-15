@@ -20,7 +20,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 backdrop-blur border-b ">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="text-xl font-semibold tracking-tight">
+        <Link href="/" className="text-xl font-semibold tracking-tight hover:text-blue-500 transition-colors">
           sohaib.dev
         </Link>
 

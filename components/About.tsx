@@ -36,6 +36,9 @@ export default function About() {
           <p>
             I care deeply about writing maintainable code, building meaningful features, and collaborating across teams. Whether it&rsquo;s building APIs, optimizing frontend UX, or deploying to the cloud &mdash; I stay focused on outcomes, not just code.
           </p>
+          <p>
+            Currently strengthening Data Structures & Algorithms with consistent problem-solving practice.
+          </p>
         </div>
       </div>
     </section>
