@@ -4,7 +4,7 @@ import About from "../../components/About";
 import Skills from "../../components/Skills";
 import Projects from "../../components/Projects";
 import Contact from "../../components/Contact";
-// import OpenSource from "../../components/OpenSource";
+import Experience from "../../components/Experience";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
-      {/* <OpenSource /> */}
+      <Experience />
       <Contact />
     </main>
   );
