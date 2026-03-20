@@ -27,6 +27,12 @@ const projects = [
     github: "https://github.com/Sohaibkundi2/SkAI",
     live: "https://sk-ai-one.vercel.app",
   },
+  {
+  title: "Ilmora Writes",
+  description: "Built a full-stack MERN note-taking app with rich text editor during the 10P SHINE Internship with real-time sync via Socket.IO, JWT auth, password reset via email, and Cloudinary avatar uploads.It include 3D Glassmorphism design.Also Includes 50+ unit tests with Mocha/Chai ",
+  tech: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Socket.IO", "Cloudinary", "Mocha",],
+  github: "https://github.com/Sohaibkundi2/sohaib-mern-10pshine",
+},
 ];
 
 export default function Projects() {
