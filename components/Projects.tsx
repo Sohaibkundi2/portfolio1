@@ -1,22 +1,22 @@
 const projects = [
   {
     title: "vidTwit",
-    description: "Built a full-stack video & Tweet platform with authentication, media uploads, comments, subscriptions, and analytics. Integrated Cloudinary for optimized storage and implemented secure JWT authentication with full video/tweet CRUD.",
-    tech: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Cloudinary", "Vercel","Render"],
-    github: "https://github.com/sohaibkundi2/mytube",
+    description: "Built a full-stack video & Tweet platform with authentication, media uploads, comments, subscriptions, and analytics. Features include playlist management, watch later, trending videos, repost option, OTP email verification, and a custom 404 error page. Integrated Cloudinary for optimized storage and implemented secure JWT authentication with full video/tweet CRUD.",
+    tech: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Cloudinary", "Vercel", "Render"],
+    github: "https://github.com/sohaibkundi2/vidTwit",
     live: "https://my-tube-red.vercel.app/",
   },
   {
     title: "NextAuthApp",
     description: "Built a complete authentication system with Next.js, features includes signup, login, email verification, password reset, protected routes, and profile management.",
-    tech: ["Next.js","TypeScript", "Node", "MongoDB","Nodemailer", "SMTP"],
+    tech: ["Next.js", "TypeScript", "Node", "MongoDB", "Nodemailer", "SMTP"],
     github: "https://github.com/Sohaibkundi2/Next-Auth-App",
     live: "https://next-auth-app-nine-vert.vercel.app",
   },
   {
     title: "URL Shortener",
     description: "Developed a full-stack URL Shortener with JWT authentication, custom slugs, click tracking, and custom domain integration. Users can create, manage, and track their shortened URLs through a user-friendly interface.",
-    tech: ["MERN Stack", "JWT","Vercel", "Render"],
+    tech: ["MERN Stack", "JWT", "Vercel", "Render"],
     github: "https://github.com/Sohaibkundi2/url-shortner",
     live: "https://shrtit.tech",
   },
